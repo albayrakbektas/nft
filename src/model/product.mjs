@@ -4,10 +4,7 @@ export class Product {
     this.title = product.title;
     this.price = product.price;
     this.currency = product.currency;
+    this.image = product.image;
     this.type = product.type;
-  }
-
-  get price () {
-    return this.price
   }
 }
